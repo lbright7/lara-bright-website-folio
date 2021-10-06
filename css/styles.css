@@ -1,0 +1,598 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  background-color: #000000;
+  font-family: 'Montserrat'; 
+}
+
+.mainNav {
+  overflow: hidden;
+  background-color: #000000;
+  font-family: 'Montserrat Bold'
+}
+
+.push {
+    float: left;
+}
+
+.OutstinctLink{
+	font-family: 'Shippori Mincho', serif;
+	position: relative;
+    top: -5px;
+}
+
+#LaraImage{
+	width: 20%;
+	height: auto;
+    animation: fadeIn ease 10s;
+   -webkit-animation: fadeIn ease 10s;
+   -moz-animation: fadeIn ease 10s;
+   -o-animation: fadeIn ease 10s;
+   -ms-animation: fadeIn ease 10s;
+}
+
+.CharacterImg{
+	width: 30%;
+	height: auto;
+	padding: 1%;
+	    animation: fadeIn ease 10s;
+   -webkit-animation: fadeIn ease 10s;
+   -moz-animation: fadeIn ease 10s;
+   -o-animation: fadeIn ease 10s;
+   -ms-animation: fadeIn ease 10s;
+}
+
+.CharacterImgRight{
+	width: 30%;
+	height: auto;
+	    animation: fadeIn ease 10s;
+   -webkit-animation: fadeIn ease 10s;
+   -moz-animation: fadeIn ease 10s;
+   -o-animation: fadeIn ease 10s;
+   -ms-animation: fadeIn ease 10s;
+}
+
+.CharacterImgRotate{
+	width: 30%;
+	height: auto;
+	transform: rotate(90deg);
+    animation: fadeIn ease 10s;
+   -webkit-animation: fadeIn ease 10s;
+   -moz-animation: fadeIn ease 10s;
+   -o-animation: fadeIn ease 10s;
+   -ms-animation: fadeIn ease 10s;
+}
+
+
+#CharacterImgBackwardsRotate{
+	width: 30%;
+	height: auto;
+	transform: rotate(270deg);
+    animation: fadeIn ease 10s;
+   -webkit-animation: fadeIn ease 10s;
+   -moz-animation: fadeIn ease 10s;
+   -o-animation: fadeIn ease 10s;
+   -ms-animation: fadeIn ease 10s;
+}
+
+.EnvironmentImg{
+	width: 50%;
+	height: auto;
+	padding: 2%;
+	
+	animation: fadeIn ease 10s;
+   -webkit-animation: fadeIn ease 10s;
+   -moz-animation: fadeIn ease 10s;
+   -o-animation: fadeIn ease 10s;
+   -ms-animation: fadeIn ease 10s;
+}
+
+#EnvironmentImgRotate{
+	width: 30%;
+	height: auto;
+	padding: 0.5%;
+	margin: 0 auto;
+	transform: rotate(90deg);
+	animation: fadeIn ease 10s;
+   -webkit-animation: fadeIn ease 10s;
+   -moz-animation: fadeIn ease 10s;
+   -o-animation: fadeIn ease 10s;
+   -ms-animation: fadeIn ease 10s;
+}
+
+.aboutText h2{
+	color: white;
+	font-size: 150%;
+	margin-left: 2%;
+	font-family: 'Montserrat';
+    animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+
+#OutstinctLink{
+	font-family: 'Shippori Mincho', serif;
+	color: orangered;
+	position: relative;
+    top: -5px;
+}
+
+#AboutLink{
+  overflow: hidden;
+  color: royalblue;
+  font-family: 'Montserrat Bold'
+}
+
+#FolioLink{
+  overflow: hidden;
+  color: green;
+  font-family: 'Montserrat Bold'
+}
+
+#PressLink{
+  overflow: hidden;
+  color: lightblue;
+  font-family: 'Montserrat Bold'
+}
+
+.mainNav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.mainNav a:hover {
+  color: gray;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 99%;    
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width : 900px ){
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width : 900px ){
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.banner{
+	color: white;
+	text-align: center;
+	font-size: 80%;
+	margin: 0 10% 0 10%;
+	padding: 1%;
+}
+
+
+.content {
+  background-color: #000000;
+  color: white;
+  padding: 2%;
+  margin: 0 auto;
+  height: 200px;
+  text-align: center;
+}
+
+h1{
+	font-size: 380%;
+}
+
+h2{
+	font-family: "Shippori Mincho";
+	font-size: 380%;
+	color: white;
+}
+
+h4{
+	font-size: 140%;
+	font-style: oblique;	
+}
+
+div p{
+  padding-left:20%;
+  padding-right:20%;
+  margin: 0 auto;
+}
+
+.centerDiv {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.center{
+  width: 25%;
+  display:inline-block;
+  float:left;
+  height: auto;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.center:hover
+    {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+ }
+
+.FolioBanner{
+    width: 100%;
+	height: auto;
+}
+
+.contentText {
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 100%;
+	padding-left:5%;
+    padding-right:5%;
+}
+
+.aboutText{
+	color: white;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 150%;
+}
+
+.aboutText h2{
+	color: white;
+	font-size: 150%;
+	margin-left: 2%;
+	font-family: 'Montserrat';
+    animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+
+#aboutContent h2{
+	color: white;
+	font-size: 150%;
+	margin-left: 2%;
+	font-family: 'Montserrat';
+    animation: fadeIn ease 20s;
+  -webkit-animation: fadeIn ease 20s;
+  -moz-animation: fadeIn ease 20s;
+  -o-animation: fadeIn ease 20s;
+  -ms-animation: fadeIn ease 20s;
+}
+
+#aboutContent a{
+  display: block;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+#aboutContent a:hover {
+  color: gray;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#Outstinctcontent{
+    height:auto;
+    width: 100%; 
+    background-image:url("../Images/PressKit/HANDREACHINGOUT.png");
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+#CharacterDesignContent{
+    height:auto;
+    width: 100%; 
+    background-image:url("../Images/FolioImages/OrthographicFinal.png");
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+#EnvironmentDesignContent{
+    height: auto;
+    width: 100%; 
+    background-image:url("../Images/FolioImages/Environment design.png");
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  display: none;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 1%;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Exan';
+    src: url('../Fonts/Exan-Regular.woff2') format('woff2'),
+        url('../Fonts/Exan-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../Fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../Fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.item-1, 
+.item-2, 
+.item-3 {
+  font-size: 140%;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+* {box-sizing:border-box}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: #fff;
+  color: #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
+}
+
+#FAQ{
+	font-size: 180%;
+	font-style: oblique;
+	text-align: left;
+	padding: 0 15px;
+}
